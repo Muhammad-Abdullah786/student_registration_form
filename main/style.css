@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-
+.inputBox{
+    background-color: aqua;
+    margin: 12px 12px ;
+    font-size: 23px;
+}
 .main{
     display: flex;
     align-items: center;
@@ -24,14 +28,36 @@
     align-items: center;
     width: 100%;
 }
+.img img{
+    display: block;
+    
+}
+.selectOption{
+    margin: 4px  44px ;
+    background-color: aquamarine;
+    text-align: left;
+    font-size: 17px;
+    border: 2px solid #000;
+    padding: 4px  44px ;
+}
 .form{
-    display: flex;
-    width: 80%;
+    /* display: flex; */
+    width: 70%;
     height: 80vh;
-    background-image: linear-gradient(to right, rgb(211, 131, 131) , rgb(255, 0, 179));
+    /* background-image: linear-gradient(to right, rgb(211, 131, 131) , rgb(255, 0, 179)); */
+display: flex;
+flex-wrap: wrap;
+/* align-items: center; */
+justify-content: space-between;
 
 }
 
 .buttons button {
     margin-bottom: 10px;
+}
+
+#userName{
+    margin: 12px 12px ;
+    padding: 12px 12px ;
+    font-size: 18px;
 }

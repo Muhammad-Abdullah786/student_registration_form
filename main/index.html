@@ -1,27 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saylani Form</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="main">
-      <div class="top">
-        <div class="img">
-          <img src="../media/saylani_Logo.png" alt="logo" />
-        </div>
-        <h1>SMIT Registration</h1>
-      </div>
-      <div class="buttons">
-        <button>New Application</button>
-        <button>Download ID Card</button>
-        <button>Result</button>
-      </div>
-<div class="form">
-    
-</div>      
-    </div>
-  </body>
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Saylani Form</title>
+   <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+   <div class="main">
+     <div class="top">
+       <div class="img">
+         <img src="../media/saylani_Logo.png" alt="logo" />
+       </div>
+       <h1>SMIT Registration</h1>
+     </div>
+     <div class="buttons">
+       <button>New Application</button>
+       <button>Download ID Card</button>
+       <button>Result</button>
+     </div>
+     <div class="form">
+       <div class="inputBox">
+         <p>Select City</p>
+         <select name="enter" id="city" class="selectOption">
+           <option value=""></option>
+           <option value="">karachi</option>
+           <option value="">Lahore</option>
+           <option value="">Rawalpindi</option>
+         </select>
+       </div>
+       <div class="inputBox">
+         <p>Select Course</p>
+         <select name="enter" id="courses" class="selectOption">
+           <option value="" class="selectOption">Web Development</option>
+           <option value="" class="selectOption">Cyber Security</option>
+           <option value="" class="selectOption">Game Dev</option>
+           <option value="" class="selectOption">Data science</option>
+           <option value="" class="selectOption">Graphic Design</option>
+         </select>
+       </div>
+       <div class="inputBox">
+         <p>Full Name</p>
+         <input type="text" name="" id="fullName" placeholder="Full Name">
+       </div>
+       <div class="inputBox">
+         <p>Father Name</p>
+         <input type="text" name="" id="fatherName" placeholder="Father Name">
+       </div>
+       <div class="inputBox">
+         <p>Email</p>
+         <input type="email" name="" id="email" placeholder="Email">
+       </div>
+       <div class="inputBox">
+         <p>Phone Number</p>
+         <input type="number" name="" id="phoneNumber" placeholder="Phone Number">
+       </div>
+       <div class="inputBox">
+         <p>Address</p>
+         <input type="text" name="" id="address" placeholder="Address">
+       </div>
+       <div class="inputBox">
+         <p>Select Gender</p>
+         <select name="enter" id="gender" class="selectOption">
+           <option value="" class="selectOption">Female</option>
+           <option value="" class="selectOption">play station</option>
+           <option value="" class="selectOption">Male</option>
+           <option value="" class="selectOption">Non-binary</option>
+           <option value="" class="selectOption">xbox</option>
+         </select>
+       </div>
+       <div class="inputBox">
+         <p>Select Gaming Platform</p>
+         <select name="enter" id="gamingPlatform" class="selectOption">
+           <option value="" class="selectOption">Xbox</option>
+           <option value="" class="selectOption">PlayStation</option>
+         </select>
+       </div>
+       <div class="inputBox">
+         <p>Latest Qualification</p>
+         <select name="enter" id="qualification" class="selectOption">
+           <option value="" class="selectOption">Matric</option>
+           <option value="" class="selectOption">Inter</option>
+           <option value="" class="selectOption">School</option>
+           <option value="" class="selectOption">University</option>
+           <option value="" class="selectOption">PhD</option>
+         </select>
+       </div>
+       <div class="inputBox">
+         <p>Upload Picture</p>
+         <input type="file" id="file-input" accept="image/jpg, image/jpeg, image/png" />
+       </div>
+     </div>
+   </div>
+ </body>
 </html>
+
